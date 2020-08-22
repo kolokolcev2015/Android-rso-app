@@ -1,0 +1,192 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main"
+            android:background="#FFFFDFA9">
+
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LLBackInfoEvent"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/oshk">
+             
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="150dp"
+            android:id="@+id/NameEventsInfo"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#fff"
+            android:text="Областная школа комиссаров"
+            android:textSize="17dp"
+                    
+
+            />
+         </LinearLayout>
+        
+             <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:id="@+id/DescEventsInfo"
+            android:textColor="#444"
+            android:text="Областная школа комиссаров - школа, нацеленная на бла бла бла..."
+            android:textSize="15dp"
+
+            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                 <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:textColor="#444"
+            android:text="Дата проведения"
+            android:textSize="15dp"
+
+            />
+                 <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:id="@+id/DataEvent"
+            android:textColor="#444"
+            android:text="-"
+            android:textSize="15dp"
+
+            />
+                </LinearLayout>
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                 <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:textColor="#444"
+            android:text="Время начала"
+            android:textSize="15dp"
+
+            />  <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:id="@+id/Timestart"
+            android:textColor="#444"
+            android:text="-"
+            android:textSize="15dp"
+
+            />
+                </LinearLayout>
+                  
+                    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                    <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:textColor="#444"
+            android:text="Место проведения"
+            android:textSize="15dp"
+
+            />
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+                                android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:id="@+id/PlaceEvent"
+            android:textColor="#444"
+            android:text="-"
+            android:textSize="15dp"
+
+            />
+                </LinearLayout>
+                  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                    <TextView
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:textColor="#444"
+            android:text="Количество участников"
+            android:textSize="15dp"
+
+            />
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+                                android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+            android:id="@+id/CountEvent"
+            android:textColor="#444"
+            android:text="1"
+            android:textSize="15dp"
+
+            />
+                </LinearLayout>
+                <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+                android:clickable="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Visits"
+            android:textColor="#060"
+            android:layout_marginRight="10dp"
+            android:text="Стать участником"
+            android:textSize="16dp"
+
+            />
+            <TextView
+                android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/org"
+            android:textColor="#060"
+            android:layout_marginRight="10dp"
+            android:text="Стать организатором"
+            android:textSize="16dp"
+
+            />
+
+              </LinearLayout>  
+                </LinearLayout>
+
+</RelativeLayout>

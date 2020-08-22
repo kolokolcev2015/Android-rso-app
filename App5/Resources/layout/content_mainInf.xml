@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFDFA9"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+                android:layout_marginTop="55dp">
+<android.support.design.card.MaterialCardView 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+        <LinearLayout
+            android:id="@+id/LLBack"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/Putin">
+             
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="150dp"
+            android:id="@+id/Zakdoc"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#fff"
+            android:text="Законодательные документы"
+            android:textSize="17dp"
+            />
+       
+        
+ 
+                </LinearLayout>
+
+</android.support.design.card.MaterialCardView>
+    <android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+        <LinearLayout
+            android:id="@+id/a"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/OldRSO">
+             
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="150dp"
+            android:id="@+id/histRSO"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#fff"
+            android:text="История РСО"
+            android:textSize="17dp"
+            />
+       
+        
+ 
+                </LinearLayout>
+
+</android.support.design.card.MaterialCardView>
+    <android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+        <LinearLayout
+            android:id="@+id/LLBaвck"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/histotr">
+             
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="150dp"
+            android:id="@+id/Histotr"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#fff"
+            android:text="История отрядов"
+            android:textSize="17dp"
+            />
+       
+        
+ 
+                </LinearLayout>
+
+</android.support.design.card.MaterialCardView>
+    <android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    >
+        <LinearLayout
+            android:id="@+id/ф"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/krug">
+             
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="150dp"
+            android:id="@+id/obrp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="#fff"
+            android:text="Образовательный портал"
+            android:textSize="17dp"
+            />
+       
+        
+ 
+                </LinearLayout>
+
+</android.support.design.card.MaterialCardView>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

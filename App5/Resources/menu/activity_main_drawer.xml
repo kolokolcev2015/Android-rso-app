@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/nav_message"
+            android:title="Сообщения" />
+        <item
+            android:id="@+id/nav_event"
+            android:title="Мероприятия" />
+        <item
+            android:id="@+id/nav_infbase"
+            android:title="Информационная база" />
+      <item
+           android:id="@+id/nav_Logout"
+           android:title="Выйти" />
+    </group>
+
+</menu>

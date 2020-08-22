@@ -1,0 +1,413 @@
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#263238"
+        android:elevation="4dp"
+        android:tooltipText="asdad"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="100px"
+        >
+
+        <ImageView
+            android:id="@+id/iconProfile"
+            android:layout_centerHorizontal="true"
+            android:contentDescription=""
+            android:layout_height="100dp"
+            android:layout_width="100dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Login"
+                android:layout_centerHorizontal="true"
+                android:clickable="false"
+                android:layout_marginLeft="100px"
+                android:paddingBottom="0px"
+                android:textStyle="bold"
+                android:text="kolokolcev"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/ID"
+                android:layout_marginLeft="100px"
+                android:layout_centerHorizontal="true"
+                android:clickable="false"
+                android:text="id - 87266213"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="14dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_marginLeft="100px"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="Сменить пароль"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+      <LinearLayout
+        android:layout_below="@+id/signup_btn_forgot_password"
+        android:id="@+id/signup_layout_or"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:padding="5dp"
+            android:text="Обо мне"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <View
+            android:layout_width="200dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:clickable="false"
+                android:text="Фамилия"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:gravity="left"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/Secondname"
+                android:layout_centerHorizontal="true"
+                android:clickable="false"
+                android:text="secondname"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="45dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:clickable="true"
+                android:text="изменить"
+                android:gravity="right"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="8dp"
+                android:layout_marginLeft="70px"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_marginLeft="25px"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:clickable="false"
+                android:text="Имя"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:gravity="left"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Name"
+                android:layout_centerHorizontal="true"
+                android:clickable="false"
+                android:text="name"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="45dp"
+                android:textSize="10dp"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:clickable="true"
+                android:text="изменить"
+                android:gravity="right"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="70px"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_marginLeft="25px"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:clickable="true"
+                android:text="Отчество"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:gravity="left"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Fathersname"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="fathers_name"
+                android:gravity="left"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="45dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="изменить"
+                                android:gravity="right"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="70px"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_marginLeft="25px"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:gravity=""
+                android:clickable="true"
+                android:text="Дата рождения"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Date"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="Date"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="45dp"
+                android:gravity="left"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="изменить"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="70px"
+                android:textSize="8dp"
+                                android:gravity="right"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_marginLeft="25px"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:clickable="true"
+                android:text="Отряд"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4" />
+
+            <TextView
+                android:id="@+id/Otr"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="Otryad"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="45dp"
+                                android:gravity="left"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="изменить"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="70px"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                                android:gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:background="#C4C8C9"
+            android:layout_marginLeft="25px"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:clickable="true"
+                android:text="Роль в отряде"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/Role"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="role_in_otr"
+                android:gravity="left"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="45dp"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_below="@+id/change_pas"
+                android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:text="изменить"
+                                android:gravity="right"
+                android:textColor="@color/colorPrimaryDark"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_marginLeft="70px"
+                android:textSize="8dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
